@@ -5,46 +5,122 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="mycss.css" rel="stylesheet">
-	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+	<title>Joséphine Bach</title>
 </head>
 <body>
-	<section class="propos">
-		<h1>A Propos</h1>
-		<p>Salut, moi mon nom c'est Joséphine</p>
-		<p>Adresse : 8 rue des Pompons, 75017 Paris</p>
-		<p>Téléphone : 07.56.43.78.64</p>
-		<img class="img_profile" src="https://cdn.intra.42.fr/users/jbach.jpg"/>
+	<section class="haut_cv">
+		<div>
+			<H1 class="titre_prenom">JOSÉPHINE</H1>
+			<H1 class="titre_prenom">BACH</H1>
+			<H1 class="titre_job">DÉVELOPPEUSE</H1>
+		</div>
+		<img class="image_profil" src="src/jbach.png"/>
 	</section>
-	<div class="section_general">
-		<section class="ecole">
-			<h1>Formations</h1>
-			<p>Bac S - Ecole Internationale Bilingue</p>
-			<p>Web School Factory -- 2018/2023</p>
-			<p>Ecole 42 -- 2021 à l'infini</p>
+	<hr class="ligne_cv">
+	<section class="bas_cv">
+		<section class="cv_gauche">
+			<div>
+				<H1 class="titre_partie">PROFILE</H1>
+				<p class="text_cv_gauche">Actuellement en double diplôme entre la Web School Factory et l'École 42. Cette double casquette me permet d'acquérir des compétences de chefferie de projet et de développement.</p>
+			</div>
+			<div>
+				<div class="icon_and_text">
+					<i class="fi fi-sr-home"></i>
+					<p class="icon_text">PARIS</p>
+				</div>
+				<div class="icon_and_text">
+					<i class="fi fi-sr-envelope"></i>
+					<a href="mailto:jbach@student.42.fr" class="icon_text">JBACH@STUDENT.42.FR</a>
+				</div>
+				<div class="icon_and_text">
+					<i class="fi fi-brands-github"></i>
+					<a href="https://github.com/jbach-dev" class="icon_text">GITHUB</a>
+				</div>
+			</div>
+			<hr class="ligne_cv_hori">
+			<div>
+				<H1 class="titre_partie">EDUCATION</H1>
+				<div class="educ">
+					<p class="text_cv_educ">ECOLE 42</p>
+					<p class="text_cv_educ_petit_t">Programmation au travers de projets mettant en oeuvre le Peer Learning</p>
+					<p class="text_cv_educ_petit_b">2021-2024</p>
+				</div>
+				<div class="educ">
+					<p class="text_cv_educ">WEB SCHOOL FACTORY</p>
+					<p class="text_cv_educ_petit_t">Etudiante en 4ème année - Manageur de l'innovation numérique</p>
+					<p class="text_cv_educ_petit_b">2018-2023</p>
+				</div>
+				<div class="educ">
+					<p class="text_cv_educ">RMIT VIETNAM</p>
+					<p class="text_cv_educ_petit_t">Echange Universitaire</p>
+					<p class="text_cv_educ_petit_b">2021</p>
+				</div>
+				<div class="educ">
+					<p class="text_cv_educ">LYCÉE INTERNATIONALE DE BANGKOK</p>
+					<p class="text_cv_educ_petit_t">Echange Universitaire</p>
+				</div>
+			</div>
+			<hr class="ligne_cv_hori">
+			<div>
+				<H1 class="titre_partie">MES COMPÉTENCES</H1>
+				<div class="educ">
+					<p class="text_cv_educ">INFORMATIQUE</p>
+					<div class="info_text">
+						<p class="text_cv_info_petit_t">PHOTOSHOP</p>
+						<p class="text_cv_info_petit_t">XD</p>
+						<p class="text_cv_info_petit_t">AFTER EFFECT</p>
+						<p class="text_cv_info_petit_t">HTML/CSS/JAVASCRIPT</p>
+						<p class="text_cv_info_petit_t">WORDPRESS</p>
+						<p class="text_cv_info_petit_t">SQL</p>
+						<p class="text_cv_info_petit_t">C</p>
+					</div>
+				</div>
+				<div class="educ">
+					<p class="text_cv_educ">LANGUES</p>
+					<div class="info_text_langue">
+						<div class="langue_english">
+							<p class="text_cv_info_langue">ANGLAIS</p>
+							<div>
+								<p class="text_cv_info_petit_t">niveau C1 - expérimenté IELTS</p>
+								<p class="text_cv_info_petit_t">7.5/9 & Cambridge - FCE</p>
+							</div>
+						</div>
+						<div>
+						<div class="langue_english">
+							<p class="text_cv_info_langue">ESPAGNOL</p>
+							<p class="text_cv_info_petit_t">niveau B2 - intermédiaire</p>
+						</div>
+					</div>
+				</div>
+				<div class="educ">
+					<p class="text_cv_educ">SOFT SKILLS</p>
+					<div class="info_text_langue">
+						<div class="langue_english">
+							<p class="text_cv_info_langue">Organisation</p>
+							<p class="text_cv_info_petit_t">membre de la cellule Logistique de la Web School Factory - 
+								organisation de nombreux Week-End
+								challenge (prise en charge 24/24 de 60 étudiants :
+								accueil, déroulement des compétitions, repas…)</p>
+						</div>
+						<div class="langue_english">
+							<p class="text_cv_info_langue">Communication</p>
+							<p class="text_cv_info_petit_t">responsable Communication du BDE</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</section>
-		<section class="experience">
-			<h1>Experiences</h1>
-			<p>Trésorière - Junior 42 Paris</p>
-			<p>2 mois - Digital Waitress - Designeuse</p>
-			<p>10 mois - Passiaman - Chef de projet digital</p>
+		<hr class="ligne_cv_verti">
+		<section class="cv_droite">
+			<H1 class="titre_partie">WORK EXPERIENCE</H1>
+			<p class="text_cv">Actuellement en double diplôme entre la Web School Factory et l'École 42. Cette double casquette me permet d'acquérir des compétences de chefferie de projet et de développement.</p>
 		</section>
-		<section class="competences">
-			<h1>Competences</h1>
-			<p>C</p>
-			<p>HTML</p>
-			<p>CSS</p>
-			<p>Trésorerie</p>
-		</section>
-		<section class="activite">
-			<h1>Diplomes et certifications</h1>
-			<p>Trésorière à la Junior 42 Paris -- 2022/2023</p>
-			<p>Responsable communication BDE de la WSF</p>
-		</section>
-		<section>
-			<h1>Hobbies</h1>
-			<p>Le voyage</p>
-			<p>Le monde de la gastronomie</p>
-		</section>
-	</div>
+	</section>
 </body>
 </html>

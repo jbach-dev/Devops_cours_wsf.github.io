@@ -1,0 +1,148 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.section_general{
+	display:flex;
+	justify-content: space-between;
+}
+.propos img{
+	width: 25%;
+}
+.propos{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.titre_prenom{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	margin: 0px;
+}
+.titre_job{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+}
+.ligne_cv{
+	height:5px;
+	border-left: none;
+	border-right: none;
+}
+
+.haut_cv{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.image_profil{
+	width: 15%;
+	height: 15%;
+}
+.titre_partie{
+	font-weight: 200;
+	font-size: 20px;
+}
+
+.bas_cv{
+	display: flex;
+	flex-direction: row;
+}
+
+.text_cv_gauche{
+	font-weight: 100;
+}
+
+.text_cv{
+	font-weight: 200;
+}
+
+.cv_gauche{
+	width:50%;
+	margin:30px;
+}
+.cv_droite{
+	margin:30px;
+}
+
+.ligne_cv_verti{
+	width:5px;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	border-color: #D9D9D9;
+}
+
+.ligne_cv_hori{
+	height:5px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-color: #D9D9D9;
+
+}
+
+.fi{
+	color:#D9D9D9;
+}
+
+.icon_text{
+	font-size: 10px;
+	margin-left:10px;
+	text-decoration: none;
+	color:#AEAEAE;
+}
+
+.icon_and_text{
+	display: flex;
+	align-items: center;
+	color:#AEAEAE;
+	height: 30px;
+}
+
+.text_cv_educ{
+	font-weight: 500;
+	font-size: 15px;
+}
+
+.text_cv_educ_petit_t{
+	font-weight: 100;
+	margin-bottom: 0;
+}
+
+.text_cv_educ_petit_b{
+	font-weight: 100;
+	margin-top: 3%;
+}
+
+.educ{
+	margin-top:15%;
+}
+
+.info_text{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.text_cv_info_petit_t{
+	font-size: 10px;
+	font-weight: 100;
+	margin: 0;
+	padding-right: 5%;
+	padding-bottom: 3%;
+}
+
+.text_cv_info_langue{
+	font-size: 10px;
+	font-weight: 300;
+	margin: 0;
+	padding-right: 5%;
+	padding-bottom: 3%;
+}
+
+.langue_english{
+	display:flex;
+	flex-direction: row;
+}
