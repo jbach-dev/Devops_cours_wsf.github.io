@@ -109,16 +109,18 @@ body{
 
 .text_cv_educ_petit_t{
 	font-weight: 100;
+	font-size: 15px;
 	margin-bottom: 0;
 }
 
 .text_cv_educ_petit_b{
 	font-weight: 100;
-	margin-top: 3%;
+	font-size: 15px;
+	margin-top: 1%;
 }
 
 .educ{
-	margin-top:15%;
+	margin-top:5%;
 }
 
 .info_text{
@@ -127,7 +129,7 @@ body{
 }
 
 .text_cv_info_petit_t{
-	font-size: 10px;
+	font-size: 13px;
 	font-weight: 100;
 	margin: 0;
 	padding-right: 5%;
@@ -135,7 +137,7 @@ body{
 }
 
 .text_cv_info_langue{
-	font-size: 10px;
+	font-size: 13px;
 	font-weight: 300;
 	margin: 0;
 	padding-right: 5%;
@@ -145,4 +147,16 @@ body{
 .langue_english{
 	display:flex;
 	flex-direction: row;
+}
+.ligne_cv_hori_small{
+	height:5px;
+	width:50%;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-color: #D9D9D9;
+}
+
+.titre_job{
+	
 }
